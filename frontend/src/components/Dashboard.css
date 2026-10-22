@@ -1,0 +1,4 @@
+/* Component-specific overrides live in App.css for the integrated UI. */
+.dashboard-wrapper {
+  /* retained for compatibility if referenced */
+}

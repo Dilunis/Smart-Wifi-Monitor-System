@@ -1,0 +1,136 @@
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background:
+    radial-gradient(ellipse at 20% 20%, rgba(49, 130, 206, 0.25), transparent 50%),
+    radial-gradient(ellipse at 80% 80%, rgba(49, 151, 149, 0.2), transparent 45%),
+    #0f1419;
+  font-family: "Segoe UI", "IBM Plex Sans", sans-serif;
+}
+
+.login-panel {
+  width: 100%;
+  max-width: 320px;
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  padding: 20px;
+  color: #e6edf3;
+}
+
+.login-brand {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.login-mark {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: #238636;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-size: 0.8rem;
+}
+
+.login-brand h1 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.login-brand p {
+  margin: 2px 0 0;
+  color: #8b949e;
+  font-size: 0.72rem;
+}
+
+.login-form h2 {
+  margin: 0 0 4px;
+  font-size: 0.95rem;
+}
+
+.login-hint {
+  margin: 0 0 14px;
+  color: #8b949e;
+  font-size: 0.78rem;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 8px 10px;
+  font-size: 0.8rem;
+  color: #c9d1d9;
+  border-radius: 6px;
+}
+
+.login-form input {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 14px;
+  padding: 11px 12px;
+  border-radius: 8px;
+  border: 1px solid #30363d;
+  background: #0d1117;
+  color: #e6edf3;
+  font-size: 0.95rem;
+}
+
+.login-form input:focus {
+  outline: 2px solid #238636;
+  border-color: transparent;
+}
+
+.login-form button {
+  width: 100%;
+  margin-top: 6px;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  background: #238636;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 0.8px;
+}
+
+.login-form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.login-error {
+  background: rgba(248, 81, 73, 0.15);
+  border: 1px solid rgba(248, 81, 73, 0.4);
+  color: #ffa198;
+  padding: 8px 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 0.7rem;
+  margin-top: 16px;
+}
+
+.login-credentials {
+  margin-top: 24px;
+  padding-top: 18px;
+  border-top: 1px solid #30363d;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.8rem;
+  color: #8b949e;
+}
+
+.login-credentials strong {
+  color: #c9d1d9;
+  margin-bottom: 4px;
+}
